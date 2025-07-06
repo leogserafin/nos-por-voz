@@ -155,3 +155,26 @@
     font-size: 14px;
   }
   
+  .topo {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 10px 40px;
+  background-color: white; /* ou transparente */
+  position: fixed;
+  width: 100%;
+  top: 0;
+  z-index: 999;
+}
+
+.logo img {
+  height: 40px; /* ajuste conforme sua logo */
+  width: auto;
+}
+
+.menu a {
+  margin-left: 20px;
+  text-decoration: none;
+  color: black;
+  font-weight: 500;
+}
