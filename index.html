@@ -65,10 +65,10 @@
     <div class="container">
       <h2>Contato</h2>
       <p>Caso seja uma instituição necessitada ou um possível voluntário, entre em contato conosco.</p>
-      <form>
-        <input type="text" placeholder="Nome" required>
-        <input type="email" placeholder="E-mail" required>
-        <textarea placeholder="Mensagem" required></textarea>
+      <form name="contato" method="POST" data-netlify="true">
+        <input type="text" name="nome" placeholder="Nome" required>
+        <input type="email" name="email" placeholder="E-mail" required>
+        <textarea name="mensagem" placeholder="Mensagem" required></textarea>
         <button type="submit">Enviar</button>
       </form>
     </div>
@@ -79,7 +79,7 @@
     <div class="cta-box">
       <img src="images/WhatsappLogo.webp" alt="WhatsApp">
       <p>Acompanhe a lista de itens necessários para as próximas ações e locais de coleta</p>
-      <a href="" class="cta-arrow">→</a>
+      <a href="https://chat.whatsapp.com/SEU_LINK_DO_GRUPO" class="cta-arrow" target="_blank" rel="noopener noreferrer">→</a>
     </div>
   </section>
 
