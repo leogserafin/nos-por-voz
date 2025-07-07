@@ -81,11 +81,14 @@
     background: white;
     border: 1px solid #eee;
     border-radius: 8px;
-    padding: 20px;
+    padding: 10px;
     flex: 1;
     text-align: center;
+    box-shadow: 0 0 10px rgba(0,0,0,0.05);
+    min-width: 250px;
+    max-width: 300px;
   }
-  
+
   .card img {
     max-width: 100%;
     border-radius: 4px;
@@ -177,4 +180,22 @@
   text-decoration: none;
   color: black;
   font-weight: 500;
+}
+
+.acoes-container {
+  display: flex;
+  justify-content: space-between;
+  gap: 20px;
+  flex-wrap: wrap;
+}
+
+@media (max-width: 768px) {
+  .acoes-container {
+    flex-direction: column;
+    align-items: center;
+  }
+  .card {
+    width: 90%;
+    max-width: 400px;
+  }
 }
